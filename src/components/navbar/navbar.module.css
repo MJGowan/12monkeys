@@ -1,0 +1,10 @@
+.nav {
+    background-color: #000B0E;
+    color: #FFECD1;
+    min-width: 100%;
+}
+.navLink{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
