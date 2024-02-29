@@ -1,4 +1,5 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+@import 'https://fonts.googleapis.com/css2?family=Playfair+Display+SC:wght@400;700;900&display=swap';
 
 html, body{
 max-width: 100vw;
@@ -14,10 +15,14 @@ a {
   text-decoration: none;
 }
 
-.bgMonkey{
-
+.title{
+  text-align: center;
 }
 
-.bgWaves{
-  
+.header {
+  font-family: "Playfair Display SC", serif;
+  font-weight: 700;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #FFECD1;
 }

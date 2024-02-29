@@ -1,22 +1,29 @@
 import React from 'react';
-import styles from './home.module.css';
+import './home.css';
 import { Container, Row, Col } from 'react-bootstrap';
 
 export default function Home() {
     return (
-        <div>
+        <div id='home'>
             <Container>
                 <Row>
                     <Col>
-                        <h1 className={styles.header}>12 MONKEYS TATTOOS</h1>
+                        <h1 className='title header'>12 MONKEYS TATTOOS</h1>
                     </Col>
                 </Row>
             </Container>
             <img
                 src='/heroImg.png'
                 alt=''
-                className={styles.heroImg}
+                className='heroImg'
             />
+            <Container>
+                <Row>
+                    <Col>
+                        <h3 className='header'>FIND US ON INSTAGRAM</h3>
+                    </Col>
+                </Row>
+            </Container>
         </div>
     )
 }

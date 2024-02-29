@@ -7,6 +7,8 @@ import HomePage from "@/pages/home/home";
 export default function Home() {
   return (
     <main className={styles.main}>
+        <img src="/bgMonkey.png" className={styles.bgMonkey}/>
+        <img src="/bgWaves.png" className={styles.bgWaves}/>
       <Navbar/>
         <HomePage/>
       <Footer/>
