@@ -8,10 +8,12 @@ export default function Footer() {
       <Container>
         <Row>
           <Col>
-            <p>911 N. CENTRAL AVE, TRACY, CA <br /> (209) 839 - 1265</p>
+            <p>911 N. CENTRAL AVE, TRACY, CA </p>
+            <p> (209) 839 - 1265</p>
           </Col>
           <Col className={styles.end}>
-            <p>DESIGNED AND DEVELOPED <br /> BY MADELINE GOWAN</p>
+            <p><a>ADMIN LOGIN</a></p>
+            <p><a href='https://www.mjgowan.dev/'>BY MJGOWAN.DEV</a></p>
           </Col>
         </Row>
       </Container>

@@ -1,6 +1,8 @@
 import React from 'react';
 import './home.css';
 import { Container, Row, Col } from 'react-bootstrap';
+import InstagramIcon from '@mui/icons-material/Instagram';
+import ShoppingCart from '@mui/icons-material/ShoppingCartOutlined';
 
 export default function Home() {
     return (
@@ -20,7 +22,12 @@ export default function Home() {
             <Container>
                 <Row>
                     <Col>
-                        <h3 className='header'>FIND US ON INSTAGRAM</h3>
+                        <h3 className='header'><a>FIND US ON INSTAGRAM<InstagramIcon className='icon'/></a></h3>
+                    </Col>
+                </Row>
+                <Row>
+                    <Col>
+                        <h3 className='header'><a>SHOP ON ETSY<ShoppingCart className='icon'/></a></h3>
                     </Col>
                 </Row>
             </Container>

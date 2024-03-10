@@ -1,0 +1,19 @@
+#studio{
+    text-align: center;
+}
+
+.mainTxt{
+    font-weight:normal;
+}
+
+.rightAlign{
+    text-align: end;
+}
+
+.leftAlign{
+    text-align: start;
+}
+
+.studioCarousel{
+width: 75%;
+}

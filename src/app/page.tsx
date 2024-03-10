@@ -3,6 +3,8 @@ import Navbar from "@/components/navbar/navbar";
 import Footer from "@/components/footer/footer";
 
 import HomePage from "@/pages/home/home";
+import Studio from "@/pages/studio/studio";
+import Aftercare from "@/pages/aftercare/aftercare";
 
 export default function Home() {
   return (
@@ -10,7 +12,7 @@ export default function Home() {
         <img src="/bgMonkey.png" className={styles.bgMonkey}/>
         <img src="/bgWaves.png" className={styles.bgWaves}/>
       <Navbar/>
-        <HomePage/>
+        <Aftercare/>
       <Footer/>
     </main>
   );

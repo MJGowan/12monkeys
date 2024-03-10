@@ -1,0 +1,19 @@
+.mainTxt{
+    font-weight: normal;
+}
+
+.careInfo{
+    background-color: #0C3C47;
+    width: 80%;
+    padding: 10px;
+    border-radius: 5px;
+    height: 100%;
+}
+
+#aftercare .header{
+    text-align: center;
+}
+
+#aftercare li{
+    padding-bottom: 8px;
+}

@@ -1,5 +1,6 @@
 .main {
     min-height: 100vh;
+    position: relative;
 }
 
 .bgMonkey {
@@ -14,6 +15,9 @@
     width: 350px;
     height: auto;
     position: absolute;
+    display: flex;
     z-index: -1;
     bottom: 0;
+    opacity: 0.6;
+    align-content: end;
 }
