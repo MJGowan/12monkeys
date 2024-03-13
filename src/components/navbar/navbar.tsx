@@ -22,7 +22,7 @@ export default function Navibar() {
                 <Link href="/pages/home" as='/'>
                     <Image
                         src='/navLogo.png'
-                        width={250}
+                        width={270}
                         height={95}
                         alt='12 Monkeys Tattoos Logo'
                     />
