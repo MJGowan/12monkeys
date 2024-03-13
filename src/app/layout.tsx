@@ -19,9 +19,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <Navbar />
         <img src="/bgMonkey.png" className='bgMonkey' />
         <img src="/bgWaves.png" className='bgWaves' />
+        <Navbar />
         {children}
         <Footer />
       </body>

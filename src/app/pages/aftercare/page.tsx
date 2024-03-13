@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/aftercare.css';
+import '../../../styles/aftercare.css';
 import { Container, Row, Col } from 'react-bootstrap';
 
 export default function Aftercare() {
