@@ -7,4 +7,24 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    color:#FFECD1;
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
+.navLink:active, .navLink::after, .navLink:hover{
+    color:#FFF7EC;
+}
+
+.myOffcanvas, .offcanvas{
+    background-color: #000B0E !important;
+}
+
+.navbarToggler{
+    border: none;
+}
+
+@media screen and (max-width: 1000px){
+    .navLink{
+        margin-top: 1rem;
+    }
 }

@@ -1,10 +1,15 @@
 import React from 'react';
-import './studio.css';
+import '../app/globals.css';
+import '../styles/studio.css';
 import { Container, Row, Col, Carousel, CarouselItem } from 'react-bootstrap';
+
+import Navbar from '@/components/navbar/navbar';
 
 export default function Studio() {
     return (
         <div id='studio'>
+            <img src="/bgMonkey.png" className='bgMonkey' />
+            <img src="/bgWaves.png" className='bgWaves' />
             <Container>
                 <Row>
                     <Col className='col-12'>

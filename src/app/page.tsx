@@ -1,19 +1,16 @@
 import styles from "./page.module.css";
-import Navbar from "@/components/navbar/navbar";
-import Footer from "@/components/footer/footer";
 
-import HomePage from "@/pages/home/home";
-import Studio from "@/pages/studio/studio";
-import Aftercare from "@/pages/aftercare/aftercare";
+import HomePage from "@/pages/home";
+import Studio from "@/pages/studio";
+import Aftercare from "@/pages/aftercare";
 
 export default function Home() {
   return (
-    <main className={styles.main}>
-        <img src="/bgMonkey.png" className={styles.bgMonkey}/>
-        <img src="/bgWaves.png" className={styles.bgWaves}/>
-      <Navbar/>
+    <main>
         <Aftercare/>
-      <Footer/>
+        {
+          
+        }
     </main>
   );
 }

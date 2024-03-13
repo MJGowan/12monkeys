@@ -1,0 +1,40 @@
+.mainTxt {
+    font-weight: normal;
+}
+
+.careInfo {
+    background-color: #0C3C47;
+    width: 80%;
+    padding: 10px;
+    border-radius: 5px;
+    height: 100%;
+}
+
+#aftercare .header {
+    text-align: center;
+}
+
+#aftercare li {
+    padding-bottom: 8px;
+}
+
+.spaceRow {
+    margin-bottom: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+@media screen and (max-width: 1000px) {
+    .number{
+        
+    }
+
+    .spaceRow {
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+
+    .careCol {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+}

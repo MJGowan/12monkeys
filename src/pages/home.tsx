@@ -1,5 +1,5 @@
 import React from 'react';
-import './home.css';
+import '../styles/home.css';
 import { Container, Row, Col } from 'react-bootstrap';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import ShoppingCart from '@mui/icons-material/ShoppingCartOutlined';

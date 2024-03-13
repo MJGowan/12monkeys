@@ -1,5 +1,5 @@
 import React from 'react';
-import './aftercare.css';
+import '../styles/aftercare.css';
 import { Container, Row, Col } from 'react-bootstrap';
 
 export default function Aftercare() {
@@ -9,26 +9,26 @@ export default function Aftercare() {
                 <Row>
                     <Col className='text-center'>
                         <h1 className='title header'>AFTERCARE</h1>
-                        <h5 className='mainTxt'>Call the studio if you have any questions (209) 839 - 1265</h5>
+                        <h5 className='mainTxt'>Call the studio if you have any questions </h5>
                     </Col>
                 </Row>
                 <br/>
-                <Row className='my-3'>
-                    <Col className='col-12 col-md-6 careCol'>
+                <Row className='spaceRow'>
+                    <Col className='col-12 col-lg-6 careCol'>
                         <Container className='careInfo px-4'>
                             <h3 className='header'>DO</h3>
                             <p>Wash your healing tattoo as often as you can with warm water and soap. Dry your tattoo with a paper towel or air dry. Apply a thin layer ointment or mild moisturizer if your healing tattoo feels itchy, dry or is peeling. See your doctor or urgent care if your tattoo shows any signs of infection (redness, pain, inflammation, unusual discharge, bumps or rash).</p>
                         </Container>
                     </Col>
-                    <Col className='col-12 col-md-6 careCol'>
+                    <Col className='col-12 col-lg-6 careCol'>
                         <Container className='careInfo px-4'>
                             <h3 className='header'>DO NOT</h3>
                             <p>Do not scratch, pick or rub off any part of your healing tattoo. Do not rub off the top layer of your healing tattoo in the shower. Let the dead skin slough off naturally. Do not allow your healing tattoo to be exposed to direct sunlight. Do not go swimming, surfing, or soaking in any body of water other than a shower with soap. Do not smother your healing tattoo with ointment or salve.</p>    
                         </Container>
                     </Col>
                 </Row>
-                <Row className='my-3'>
-                    <Col className='col-12 col-md-6 careCol'>
+                <Row className='spaceRow'>
+                    <Col className='col-12 col-lg-6 careCol'>
                         <Container className='careInfo px-4'>
                             <h3 className='header'>GUIDELINES</h3>
                             <ul>
@@ -42,7 +42,7 @@ export default function Aftercare() {
                             </ul>    
                         </Container>
                     </Col>
-                    <Col className='col-12 col-md-6 careCol'>
+                    <Col className='col-12 col-lg-6 careCol'>
                         <Container className='careInfo px-4'>
                             <ul>
                                 <li><strong>Day 1:</strong> May notice fluid oozing from the tattoo. This is blood, plasma, and some extra ink. Your skin will be red and sore. It might feel slightly warm to the touch.</li>
