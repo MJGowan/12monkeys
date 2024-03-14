@@ -19,7 +19,7 @@ export default function Navibar() {
     return (
         <Navbar expand={'lg'} className={styles.nav} >
             <Container fluid>
-                <Link href="/pages/home" as='/'>
+                <Link href='/'>
                     <Image
                         src='/navLogo.png'
                         width={270}
