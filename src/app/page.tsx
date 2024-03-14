@@ -16,7 +16,7 @@ export default function Home() {
       </Container>
       <img
         src='/heroImg.png'
-        alt=''
+        alt='An overhead image of the 12 Monkeys Tattoos studio'
         className={styles.heroImg}
       />
       <Container>

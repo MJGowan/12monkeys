@@ -12,7 +12,6 @@ export default function Navibar() {
 
     const handleClick = (e: any) => {
         e.preventDefault();
-        console.log(e.target.href);
         router.push(e.target.href);
     }
 
@@ -22,7 +21,7 @@ export default function Navibar() {
                 <Link href='/'>
                     <Image
                         src='/navLogo.png'
-                        width={270}
+                        width={265}
                         height={95}
                         alt='12 Monkeys Tattoos Logo'
                     />
