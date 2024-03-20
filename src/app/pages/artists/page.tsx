@@ -89,7 +89,7 @@ export default function Artists() {
           <Col className='col-12 col-lg-6'>
             <Col className='col-12'>
               <h3 className='header'>RIC CARDENAS</h3>
-              <h5 className='blurb'>Tattoos for saints, sinners, and the brave.</h5>
+              <h5 className='blurb'>Raised on the outdoors, skateboarding, music and art. Now a family man who keeps things simple while having a good time doing honest tattoos.</h5>
             </Col>
             <Col className='col-12 my-5'>
               <p>Contact: Instagram</p>
@@ -145,7 +145,7 @@ export default function Artists() {
           <Col className='col-12 col-lg-6'>
             <Col className='col-12'>
               <h3 className='header'>DANNY JUGE</h3>
-              <h5 className='blurb'>Tattoos, paintings, and cats.</h5>
+              <h5 className='blurb'>Got into tattooing with help from friends in the punk rock scene. Continues to study art and is into detailed tattoo, mixing styles with a realism base. When not tattooing you can catch him being a cat dad, hiking, biking, painting, and still going to shows, but not the pit anymore, lol.</h5>
             </Col>
             <Col className='col-12 my-5'>
               <p>Contact: Text</p>
@@ -160,7 +160,7 @@ export default function Artists() {
             </Col>
           </Col>
           <Col className='col-12 instaCol'>
-
+            
           </Col>
         </Row>
         <br />
