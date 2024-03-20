@@ -1,19 +1,26 @@
-#studio{
+#studio {
     text-align: center;
 }
 
-.mainTxt{
-    font-weight:normal;
+.mainTxt {
+    font-weight: normal;
 }
 
-.rightAlign{
+.rightAlign {
     text-align: end;
 }
 
-.leftAlign{
+.leftAlign {
     text-align: start;
 }
 
-.studioCarousel{
-width: 75%;
+.studioCarousel {
+    display: flex;
+    justify-content: center;
+    width: 70%;
+}
+
+.carouselItem {
+    height: 500px;
+    width: 100%;
 }

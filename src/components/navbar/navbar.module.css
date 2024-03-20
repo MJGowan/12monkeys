@@ -19,12 +19,14 @@
     background-color: #000B0E !important;
 }
 
-.navbarToggler{
-    border: none;
-}
-
-@media screen and (max-width: 1000px){
+@media screen and (max-width: 992px){
     .navLink{
         margin-top: 1rem;
+    }
+}
+
+@media screen and (min-width: 992px){
+    .navbarToggler{
+        display: none;
     }
 }

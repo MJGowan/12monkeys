@@ -44,15 +44,18 @@ export default function Studio() {
                 </Row>
                 <Row>
                     <Col className='d-flex justify-content-center my-4'>
-                        <Carousel className='studioCarousel'>
+                        <Carousel className='studioCarousel d-flex justify-content-center'>
                             <CarouselItem>
-                                <img src='/heroImg.png' />
+                                <img className='carouselItem' src='/imgStudio/studioOne.png' />
                             </CarouselItem>
                             <CarouselItem>
-                                <img src='/heroImg.png' />
+                                <img className='carouselItem' src='/imgStudio/studioTwo.png' />
                             </CarouselItem>
                             <CarouselItem>
-                                <img src='/heroImg.png' />
+                                <img className='carouselItem' src='/imgStudio/studioThree.png' />
+                            </CarouselItem>
+                            <CarouselItem>
+                                <img className='carouselItem' src='/heroImg.png' />
                             </CarouselItem>
                         </Carousel>
                     </Col>

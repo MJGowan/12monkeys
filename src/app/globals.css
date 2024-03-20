@@ -48,3 +48,7 @@ a {
   padding-bottom: 20px;
   color: #FFECD1;
 }
+
+#home, #admin, #aftercare, #appointments, #artists, #events, #studio{
+  min-height: 90vh;
+}
