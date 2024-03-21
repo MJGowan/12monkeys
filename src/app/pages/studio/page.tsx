@@ -1,5 +1,5 @@
 import React from 'react';
-import '../../../styles/studio.css';
+import '@/styles/studio.css';
 import { Container, Row, Col, Carousel, CarouselItem } from 'react-bootstrap';
 
 export default function Studio() {

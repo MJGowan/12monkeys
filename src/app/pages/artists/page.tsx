@@ -1,5 +1,5 @@
 import React from 'react';
-import '../../../styles/artists.css';
+import '@/styles/artists.css';
 import { Container, Row, Col } from 'react-bootstrap';
 import Image from 'next/image';
 import InstagramIcon from '@mui/icons-material/Instagram';
@@ -27,7 +27,7 @@ export default function Artists() {
           <Col className='col-12 col-lg-6'>
             <Col className='col-12'>
               <h3 className='header'>JON HIGHLAND</h3>
-              <h5 className='blurb'>Shop owner since 1999.</h5>
+              <h5 className='blurb'>Raised in a circus family, once a part of the High-Flying Trapeze Troupe. Went on to signing karaoke professionally before discovering his true passion of tattooing. Started working out of his one bedroom apartment and in 1999 he established 12 Monkeys Tattoos. And the rest is history... To be continued...</h5>
             </Col>
             <Col className='col-12 my-5'>
               <p>Contact: Instagram / Text</p>

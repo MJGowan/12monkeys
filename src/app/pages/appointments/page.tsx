@@ -1,5 +1,5 @@
 import React from 'react';
-import '../../../styles/appoint.css';
+import '@/styles/appoint.css';
 import {Container, Row, Col} from 'react-bootstrap';
 
 export default function Appointments() {

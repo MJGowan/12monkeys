@@ -1,5 +1,5 @@
 import React from 'react';
-import '../../../styles/events.css';
+import '@/styles/events.css';
 import { Container, Row, Col } from 'react-bootstrap';
 
 export default function Events() {
