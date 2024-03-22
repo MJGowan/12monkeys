@@ -109,7 +109,7 @@ export default function Artists() {
           <Col className='col-12 col-lg-6'>
             <Col className='col-12'>
               <h3 className='header'>JESSICA ORSUA</h3>
-              <h5 className='blurb'>Lorem ipsum</h5>
+              <h5 className='blurb'>Not a fan of being boxed in, all styles are welcome. Loves variety, including Disney, floral, horror characters, and black and grey realism. But a favorite is trash polka or black trash realism.</h5>
             </Col>
             <Col className='col-12 my-5'>
               <p>Contact: Instagram</p>

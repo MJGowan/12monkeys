@@ -20,8 +20,7 @@ export default function Home() {
       <Container>
         <Row>
           <Col>
-            {/* <h3 className='header my-4'><a>FIND US ON INSTAGRAM<InstagramIcon className={styles.icon} /></a></h3>
-             */}
+            <h3 className='header my-4'><a href="https://www.instagram.com/12monkeystattoos/" target='_blank' >FIND US ON INSTAGRAM<InstagramIcon className={styles.icon} /></a></h3>
           </Col>
         </Row>
       </Container>
