@@ -34,7 +34,7 @@ export default function Navibar() {
                     />
                 </Link>
 
-                <Menu aria-controls='offcanvasNavbar-expand-lg' className={styles.navbarToggler} onClick={handleShow} />
+                <Menu aria-controls='offcanvasNavbar-expand-lg' className='d-lg-none' onClick={handleShow} />
                 <NavbarOffcanvas
                     show={show}
                     onHide={handleClose}
@@ -45,10 +45,10 @@ export default function Navibar() {
                     <OffcanvasHeader closeButton data-bs-theme="dark" className='p-4'></OffcanvasHeader>
                     <OffcanvasBody>
                         <Nav className="justify-content-end flex-grow-1 pe-3">
-                            <Link href='/pages/artists' onClick={handleClick} className={styles.navLink}>Artists</Link>
-                            <Link href='/pages/appointments' onClick={handleClick} className={styles.navLink}>Appointments</Link>
-                            <Link href='/pages/studio' onClick={handleClick} className={styles.navLink}>The Studio</Link>
-                            <Link href='/pages/aftercare' onClick={handleClick} className={styles.navLink}>Aftercare</Link>
+                            <Link href='/artists' onClick={handleClick} className={styles.navLink}>Artists</Link>
+                            <Link href='/appointments' onClick={handleClick} className={styles.navLink}>Appointments</Link>
+                            <Link href='/studio' onClick={handleClick} className={styles.navLink}>The Studio</Link>
+                            <Link href='/aftercare' onClick={handleClick} className={styles.navLink}>Aftercare</Link>
                             {/* <Link href='/pages/events' onClick={handleClick} className={styles.navLink}>Events</Link> */}
                         </Nav>
                     </OffcanvasBody>

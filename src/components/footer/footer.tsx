@@ -23,7 +23,7 @@ export default function Footer() {
             <p> (209) 839 - 1265</p>
           </Col>
           <Col className={styles.end}>
-            <p><Link href='/pages/admin' onClick={handleClick}>ADMIN LOGIN</Link></p>
+            <p><Link href='/admin' onClick={handleClick}>ADMIN LOGIN</Link></p>
             <p><a href='https://www.mjgowan.dev/'>BY MJGOWAN.DEV</a></p>
           </Col>
         </Row>

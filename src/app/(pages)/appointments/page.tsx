@@ -1,6 +1,7 @@
 import React from 'react';
 import '@/styles/appoint.css';
 import {Container, Row, Col} from 'react-bootstrap';
+import { Contact } from '@/components/contact/contact';
 
 export default function Appointments() {
   return (
@@ -17,7 +18,7 @@ export default function Appointments() {
           </Col>
         </Row>
         <Row>
-          <Col className='col-12 guidelinesCol'>
+          <Col className='col-12 col-md-6 guidelinesCol'>
           <h3 className='header text-center'>GUIDELINES</h3>
           <ul className='ul'>
             <li>Must be 18 years or older to schedule an appointment. Government identification is required.</li>
@@ -27,9 +28,9 @@ export default function Appointments() {
             <li>Please be respectful of other clients and artists and silence your cellular devices.</li>
           </ul>
           </Col>
-          {/* <Col className='col-12 col-md-6'>
-          
-          </Col> */}
+          <Col className='col-12 col-md-6'>
+            <Contact/>
+          </Col>
         </Row>
         
       </Container>

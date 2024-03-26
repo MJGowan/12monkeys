@@ -12,3 +12,13 @@
     height: 50px;
     margin-right: 10px;
 }
+
+.firstImg{
+    display: flex;
+}
+
+.secondImg{
+    display: flex;
+    justify-content: end;
+}
+

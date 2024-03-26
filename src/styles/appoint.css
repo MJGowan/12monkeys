@@ -1,25 +1,45 @@
-#appointments li{
+#appointments li {
     padding: 10px;
 }
-.txtCol{
+
+.txtCol {
     margin-top: 2%;
 }
-.guidelinesCol{
-margin-top: 5%;
+
+.form {
+    background-color: #0C3C47;
+    border-radius: 5px;
 }
 
-@media screen and (min-width: 992px) and (max-width: 1200px){
-    #appointments ul{
+.input {
+    border-radius: 5px;
+    border: none;
+    min-height: 35px;
+}
+
+.subBtn {
+    border: none;
+    border-radius: 5px;
+    background-color: #0B99B0;
+    color: #FFF7EC;
+    font-weight: bold;
+    height: 40px;
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    #appointments ul {
         margin-left: 10%;
     }
 }
-@media screen and (min-width: 1200px) and (max-width: 1400px){
-    #appointments ul{
+
+@media screen and (min-width: 1200px) and (max-width: 1400px) {
+    #appointments ul {
         margin-left: 15%;
     }
 }
+
 @media screen and (min-width: 1400px) {
-    #appointments ul{
+    #appointments ul {
         margin-left: 20%;
     }
 }

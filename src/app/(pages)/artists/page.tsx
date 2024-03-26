@@ -16,7 +16,7 @@ export default function Artists() {
           </Col>
         </Row>
         <Row className='anArtist'>
-          <Col className='col-12 col-lg-6'>
+          <Col className='col-12 col-lg-6 firstImg'>
             <Image
               src='/jonHighland.png'
               height={425}
@@ -64,7 +64,7 @@ export default function Artists() {
               </div>
             </Col>
           </Col>
-          <Col className='col-12 col-lg-6 d-flex justify-content-center'>
+          <Col className='col-12 col-lg-6 secondImg'>
             <Image
               src='/kristalElaine.png'
               height={425}
