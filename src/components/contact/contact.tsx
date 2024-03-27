@@ -1,6 +1,6 @@
 'use client'
 
-import React, {useRef} from 'react';
+import React, {useRef, useEffect} from 'react';
 import { Container, Row, Col, FormSelect, FormControl } from 'react-bootstrap';
 import emailjs from '@emailjs/browser';
 
@@ -9,9 +9,18 @@ export default function Contact() {
 // fix type:any later
 const form: any = useRef();
 
+// const [pickArtist, setPickArtist] = useState('');
+// const [contactForm, setContactForm] = useState('');
+
 // fix type:any later
 const sendEmail = (e: any) => {
     e.preventDefault();
+
+    // switch (pickArtist) {
+    //     case 'Jon':
+    //         setContactForm('');
+    //     break;
+    // }
 
     emailjs.sendForm('contact_service', 'contact_form', form.current, {
         publicKey: '-rNcrdxFzlRuTpZ5O'
@@ -38,13 +47,13 @@ const sendEmail = (e: any) => {
                 <Row className='mb-2'>
                     <Col>
                         <label>Artist</label>
-                        <FormSelect>
-                            <option>Jon Highland</option>
-                            <option>Kristal Elaine</option>
-                            <option>Ric Cardenas</option>
-                            <option>Jessica Orsua</option>
-                            <option>Danny Juge</option>
-                            <option>Ashley Hess</option>
+                        <FormSelect name='artist_email'>
+                            <option value=''>Jon Highland</option>
+                            <option value=''>Kristal Elaine</option>
+                            <option value=''>Ric Cardenas</option>
+                            <option value=''>Jessica Orsua</option>
+                            <option value=''>Danny Juge</option>
+                            <option value='fawn715@gmail.com'>Ashley Hess</option>
                         </FormSelect>
                     </Col>
                 </Row>
