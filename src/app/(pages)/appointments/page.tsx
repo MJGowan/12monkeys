@@ -32,6 +32,26 @@ export default function Appointments() {
            <Contact/>
           </Col> */}
         </Row>
+        <Row className='my-5'>
+          <Col>
+            <img className='artistImg' src='/jonHighland.png'/>
+          </Col>
+          <Col>
+            <img className='artistImg' src='/kristalElaine.png'/>
+          </Col>
+          <Col>
+            <img className='artistImg' src='/ricCardenas.png'/>
+          </Col>
+          <Col>
+            <img className='artistImg' src='/jessicaOrsua.png'/>
+          </Col>
+          <Col>
+            <img className='artistImg' src='/dannyJuge.png'/>
+          </Col>
+          <Col>
+            <img className='artistImg' src='/ashleyHess.png'/>
+          </Col>
+        </Row>
       </Container>
     </div>
   )

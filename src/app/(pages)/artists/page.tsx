@@ -42,9 +42,8 @@ export default function Artists() {
               </div>
             </Col>
           </Col>
-          <Col className='col-12 instaCol'></Col>
         </Row>
-        <br />
+
         <Row className='anArtist'>
           <Col className='d-flex d-lg-none col-12 col-lg-6 secondImg'>
             <Image
@@ -81,9 +80,8 @@ export default function Artists() {
               alt='An image of Kristal Elaine, a tattoo artist'
             />
           </Col>
-          <Col className='col-12 instaCol'></Col>
         </Row>
-        <br />
+
         <Row className='anArtist'>
           <Col className='col-12 col-lg-6 firstImg'>
             <Image
@@ -108,9 +106,8 @@ export default function Artists() {
               </div>
             </Col>
           </Col>
-          <Col className='col-12 instaCol'></Col>
         </Row>
-        <br />
+
         <Row className='anArtist'>
           <Col className='d-flex d-lg-none col-12 col-lg-6 secondImg'>
             <Image
@@ -144,9 +141,8 @@ export default function Artists() {
               alt='An image of Jessica Orsua, a tattoo artist'
             />
           </Col>
-          <Col className='col-12 instaCol'></Col>
         </Row>
-        <br />
+
         <Row className='anArtist'>
           <Col className='col-12 col-lg-6 firstImg'>
             <Image
@@ -174,9 +170,8 @@ export default function Artists() {
               </div>
             </Col>
           </Col>
-          <Col className='col-12 instaCol'></Col>
         </Row>
-        <br />
+
         <Row className='anArtist'>
           <Col className='d-flex d-lg-none col-12 col-lg-6 secondImg'>
             <Image
@@ -212,9 +207,6 @@ export default function Artists() {
               className='artistImg'
               alt='An image of Ashley Hess, a tattoo artist'
             />
-          </Col>
-          <Col className='col-12 instaCol'>
-
           </Col>
         </Row>
       </Container>

@@ -9,18 +9,9 @@ export default function Contact() {
 // fix type:any later
 const form: any = useRef();
 
-// const [pickArtist, setPickArtist] = useState('');
-// const [contactForm, setContactForm] = useState('');
-
 // fix type:any later
 const sendEmail = (e: any) => {
     e.preventDefault();
-
-    // switch (pickArtist) {
-    //     case 'Jon':
-    //         setContactForm('');
-    //     break;
-    // }
 
     emailjs.sendForm('contact_service', 'contact_form', form.current, {
         publicKey: '-rNcrdxFzlRuTpZ5O'
@@ -29,7 +20,8 @@ const sendEmail = (e: any) => {
         () => {
             console.log('SUCCESS!');
         },
-        (error) => {
+        // fix type:any later
+        (error: any) => {
             console.log('FAILED...', error.text);
         }
     )

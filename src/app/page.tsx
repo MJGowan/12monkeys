@@ -15,7 +15,10 @@ export default function Home() {
     const apiData = await api.json();
     setSrcData(apiData.data);
   }
+
+  useEffect(() => {
     GetApi();
+  }, [])
 
   return (
     <div id="home">
