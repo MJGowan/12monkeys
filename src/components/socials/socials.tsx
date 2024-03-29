@@ -24,11 +24,11 @@ const InstaItem: React.FC<IItem> = ({id, media_url, username}) => {
 const InstaDisplay: React.FC<ISource> = ({source}) => {
     return(
         <div>
-            <Container>
+            <Container className='mb-5'>
                 <Row>
                     {
                         source.map((item: IItem) => (
-                            <Col key={item.id}>
+                            <Col className='col-12 col-sm-4 col-lg-2' key={item.id}>
                                 <InstaItem
                                 id={item.id}
                                 media_url={item.media_url}
