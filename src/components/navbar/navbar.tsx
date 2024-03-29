@@ -31,6 +31,7 @@ export default function Navibar() {
                         width={265}
                         height={95}
                         alt='12 Monkeys Tattoos Logo'
+                        className={styles.logo}
                     />
                 </Link>
 

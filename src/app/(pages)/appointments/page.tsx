@@ -33,22 +33,22 @@ export default function Appointments() {
           </Col> */}
         </Row>
         <Row className='my-5'>
-          <Col>
+          <Col className='col-6 col-sm-4 col-lg-2'>
             <img className='artistImg' src='/jonHighland.png'/>
           </Col>
-          <Col>
+          <Col className='col-6 col-sm-4 col-lg-2'>
             <img className='artistImg' src='/kristalElaine.png'/>
           </Col>
-          <Col>
+          <Col className='col-6 col-sm-4 col-lg-2'>
             <img className='artistImg' src='/ricCardenas.png'/>
           </Col>
-          <Col>
+          <Col className='col-6 col-sm-4 col-lg-2'>
             <img className='artistImg' src='/jessicaOrsua.png'/>
           </Col>
-          <Col>
+          <Col className='col-6 col-sm-4 col-lg-2'>
             <img className='artistImg' src='/dannyJuge.png'/>
           </Col>
-          <Col>
+          <Col className='col-6 col-sm-4 col-lg-2'>
             <img className='artistImg' src='/ashleyHess.png'/>
           </Col>
         </Row>

@@ -22,7 +22,15 @@
     justify-content: end;
 }
 
-@media screen and (max-width: 999px) {
+@media screen and (max-width: 768px) {
+    .artistImg{
+        width: 350px;
+        height: 340px;
+    }
+
+}
+
+@media screen and (max-width: 992px) {
     .firstImg{
         justify-content: center;
     }
@@ -43,7 +51,7 @@
     }
 }
 
-@media screen and (min-width: 1000px) and (max-width: 1200px){
+@media screen and (min-width: 992px) and (max-width: 1200px){
     .artistImg{
         width: 400px;
         height: 375px;

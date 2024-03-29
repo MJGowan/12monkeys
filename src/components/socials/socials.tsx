@@ -15,9 +15,9 @@ interface IItem {
 
 const InstaItem: React.FC<IItem> = ({id, media_url, username}) => {
     return(
-        <div className={styles.instaImgCont}>
+        <a className={styles.instaImgCont} href={`https://www.instagram.com/${username}/`} target='_blank'>
             <img className={styles.instaImg} alt={`@${username} post on Instagram. Post ID number ${id}.`} src={media_url}/>
-        </div>
+        </a>
     )
 }
 

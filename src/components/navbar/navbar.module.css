@@ -19,6 +19,13 @@
     background-color: #000B0E !important;
 }
 
+@media screen and (max-width: 768px) {
+    .logo{
+        width: 200px;
+        height: 80px;
+    }
+}
+
 @media screen and (max-width: 992px){
     .navLink{
         margin-top: 1rem;

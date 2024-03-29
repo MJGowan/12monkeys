@@ -24,3 +24,42 @@
     height: 500px;
     width: 100%;
 }
+
+@media screen and (max-width: 576px) {
+    .studioCarousel {
+        width: 100%;
+    }
+    .carouselItem {
+        height: 300px;
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width: 768px) {
+    .studioCarousel {
+        width: 100%;
+    }
+    .carouselItem {
+        height: 325px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    .studioCarousel {
+        width: 80%;
+    }
+    .carouselItem {
+        height: 350px;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    .carouselItem {
+        height: 400px;
+    }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1400px) {
+    .carouselItem {
+        height: 450px;
+    }
+}
