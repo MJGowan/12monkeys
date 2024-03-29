@@ -22,3 +22,40 @@
     justify-content: end;
 }
 
+@media screen and (max-width: 999px) {
+    .firstImg{
+        justify-content: center;
+    }
+    .secondImg{
+        justify-content: center;
+    }
+
+    .header{
+        text-align: center;
+    }
+    .blurb{
+        height: auto;
+        width: 100%;
+        text-align: center;
+    }
+    .contactCol{
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1200px){
+    .artistImg{
+        width: 400px;
+        height: 375px;
+    }
+    .blurb{
+        width: 100%;
+    }
+    .firstImg .artistImg{
+        margin-left: -20px;
+    }
+
+    .secondImg .artistImg{
+        margin-right: -20px;
+    }
+}
