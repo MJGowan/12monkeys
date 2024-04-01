@@ -57,7 +57,7 @@ export default function Artists() {
           <Col className='col-12 col-lg-6'>
             <Col className='col-12'>
               <h3 className='header'>KRISTAL ELAINE</h3>
-              <h5 className='blurb'>Award winning artist</h5>
+              <h5 className='blurb'>Award winning artist. Geometric, ornamental, illustration, mythology-based designs, and more. Always up for a long session.</h5>
             </Col>
             <Col className='col-12 my-5 contactCol'>
               <p>Contact: Text</p>
@@ -185,7 +185,7 @@ export default function Artists() {
           <Col className='col-12 col-lg-6'>
             <Col className='col-12'>
               <h3 className='header'>ASHLEY HESS</h3>
-              <h5 className='blurb'>Lorem ipsum</h5>
+              <h5 className='blurb'>Digital, watercolor, acrylic, and ink. Love to do florals, with some snakes here and there.</h5>
             </Col>
             <Col className='col-12 my-5 contactCol'>
               <p>Contact: Email</p>

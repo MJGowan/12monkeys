@@ -14,7 +14,7 @@ export default function Appointments() {
         </Row>
         <Row className='mb-4'>
           <Col className='txtCol'>
-            <p>Thank you for choosing 12 Monkeys Tattoo for your next tattoo experience. We are thrilled to embark on this creative journey with you! To schedule an appointment, email your artist of choice using the form provided. Be sure to check your Spam folder for our email, and if you haven't received a response, feel free to call us at (209) 839-1265 to check the status of your submission. We look forward to bringing your vision to life at 12 Monkeys Tattoo!</p>
+            <p>Thank you for choosing 12 Monkeys Tattoo for your next tattoo experience. We are thrilled to embark on this creative journey with you. To schedule an appointment, please contact your artist of choice directly. You can find your artists preferred method of contact on our Artists page. If you haven't received a response, feel free to call us at (209) 839-1265. We look forward to bringing your vision to life at 12 Monkeys Tattoo.</p>
           </Col>
         </Row>
         <Row>
