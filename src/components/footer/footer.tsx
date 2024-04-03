@@ -1,18 +1,8 @@
-'use client'
-
 import React from 'react';
 import styles from './footer.module.css';
 import { Container, Row, Col } from 'react-bootstrap';
-import Link from 'next/link';
-import { useRouter } from 'next/navigation';
 
 export default function Footer() {
-  const router = useRouter();
-
-  const handleClick = (e: any) => {
-      e.preventDefault();
-      router.push(e.target.href);
-  }
 
   return (
     <div className={styles.footer}>
@@ -23,7 +13,6 @@ export default function Footer() {
             <p>(209) 839 - 1265</p>
           </Col>
           <Col className={`col-12 col-md-6 ${styles.end} ${styles.center}`}>
-            {/* <p><Link href='/admin' onClick={handleClick}>ADMIN LOGIN</Link></p> */}
             <p className='d-none d-md-block'><a href='https://www.mjgowan.dev/'>DESIGNED AND DEVELOPED</a></p>
             <p><a href='https://www.mjgowan.dev/'>BY MJGOWAN.DEV</a></p>
           </Col>

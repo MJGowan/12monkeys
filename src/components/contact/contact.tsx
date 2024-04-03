@@ -41,7 +41,7 @@ const sendEmail = (e: any) => {
                         <label>Artist</label>
                         <FormSelect name='artist_email'>
                             <option value=''>Jon Highland</option>
-                            <option value=''>Kristal Elaine</option>
+                            <option value='kristalelainetattoos@gmail.com'>Kristal Elaine</option>
                             <option value=''>Ric Cardenas</option>
                             <option value=''>Jessica Orsua</option>
                             <option value=''>Danny Juge</option>

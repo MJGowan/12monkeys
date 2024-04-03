@@ -22,7 +22,7 @@ export default function Artists() {
               height={425}
               width={475}
               className='artistImg'
-              alt='An image of Jon Highland, a tattoo artist'
+              alt='An image of artist and shop owner Jon Highland'
             />
           </Col>
           <Col className='col-12 col-lg-6'>
@@ -51,13 +51,13 @@ export default function Artists() {
               height={425}
               width={475}
               className='artistImg'
-              alt='An image of Kristal Elaine, a tattoo artist'
+              alt='An image of artist Kristal Elaine'
             />
           </Col>
           <Col className='col-12 col-lg-6'>
             <Col className='col-12'>
               <h3 className='header'>KRISTAL ELAINE</h3>
-              <h5 className='blurb'>Award winning artist. Geometric, ornamental, illustration, mythology-based designs, and more. Always up for a long session.</h5>
+              <h5 className='blurb'>I started tattooing in 2006. Before that, from early childhood, I spent years with a heavy emphasis in oil painting. I enjoy merging various styles and techniques to create a unique work of art for my clients. The flow, composition, and intricate details speak to me when designing pieces.</h5>
             </Col>
             <Col className='col-12 my-5 contactCol'>
               <p>Contact: Text</p>
@@ -77,7 +77,7 @@ export default function Artists() {
               height={425}
               width={475}
               className='artistImg'
-              alt='An image of Kristal Elaine, a tattoo artist'
+              alt='An image of artist Kristal Elaine'
             />
           </Col>
         </Row>
@@ -89,7 +89,7 @@ export default function Artists() {
               height={425}
               width={475}
               className='artistImg'
-              alt='An image of Ric Cardenas, a tattoo artist'
+              alt='An image of artist Ric Cardenas'
             />
           </Col>
           <Col className='col-12 col-lg-6'>
@@ -115,7 +115,7 @@ export default function Artists() {
               height={425}
               width={475}
               className='artistImg'
-              alt='An image of Jessica Orsua, a tattoo artist'
+              alt='An image of artist Jessica Orsua'
             />
           </Col>
           <Col className='col-12 col-lg-6'>
@@ -138,7 +138,7 @@ export default function Artists() {
               height={425}
               width={475}
               className='artistImg'
-              alt='An image of Jessica Orsua, a tattoo artist'
+              alt='An image of artist Jessica Orsua'
             />
           </Col>
         </Row>
@@ -150,13 +150,13 @@ export default function Artists() {
               height={425}
               width={475}
               className='artistImg'
-              alt='An image of Danny Juge, a tattoo artist'
+              alt='An image of artist Danny Juge'
             />
           </Col>
           <Col className='col-12 col-lg-6'>
             <Col className='col-12'>
               <h3 className='header'>DANNY JUGE</h3>
-              <h5 className='blurb'>Got into tattooing with help from friends in the punk rock scene. Continues to study art and is into detailed tattoo, mixing styles with a realism base. When not tattooing you can catch him being a cat dad, hiking, biking, painting, and still going to shows, but not the pit anymore, lol.</h5>
+              <h5 className='blurb'>Got into tattooing with help from friends in the punk rock scene. Continue to study art and I'm into detailed tattoo, mixing styles with a realism base. When not tattooing you can catch me being a cat dad, hiking, biking, painting, and still going to shows, but not the pit anymore, lol.</h5>
             </Col>
             <Col className='col-12 my-5 contactCol'>
               <p>Contact: Text</p>
@@ -179,13 +179,13 @@ export default function Artists() {
               height={425}
               width={475}
               className='artistImg'
-              alt='An image of Ashley Hess, a tattoo artist'
+              alt='An image of artist Ashley Hess'
             />
           </Col>
           <Col className='col-12 col-lg-6'>
             <Col className='col-12'>
               <h3 className='header'>ASHLEY HESS</h3>
-              <h5 className='blurb'>Digital, watercolor, acrylic, and ink. Love to do florals, with some snakes here and there.</h5>
+              <h5 className='blurb'>I love to experiment with multiple mediums, including digital, watercolor, acrylic, and ink of course. Love to do florals, with some snakes here and there.</h5>
             </Col>
             <Col className='col-12 my-5 contactCol'>
               <p>Contact: Email</p>
@@ -205,7 +205,7 @@ export default function Artists() {
               height={425}
               width={475}
               className='artistImg'
-              alt='An image of Ashley Hess, a tattoo artist'
+              alt='An image of artist Ashley Hess'
             />
           </Col>
         </Row>

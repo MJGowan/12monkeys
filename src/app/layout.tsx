@@ -19,8 +19,8 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <img src="/bgMonkey.png" className='bgMonkey' />
-        <img src="/bgWaves.png" className='bgWaves' />
+        <img src="/bgMonkey.png" className='bgMonkey' alt="One of two background images. A large teal version of the 12 Monkeys Tattoos logo, in the top right of the screen."/>
+        <img src="/bgWaves.png" className='bgWaves' alt="The second of two background images. A large teal drawing of 'Finger Waves', in the bottom left of the screen." />
         <Navbar />
         {children}
         <Footer />

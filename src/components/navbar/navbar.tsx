@@ -50,7 +50,6 @@ export default function Navibar() {
                             <Link href='/appointments' onClick={handleClick} className={styles.navLink}>Appointments</Link>
                             <Link href='/studio' onClick={handleClick} className={styles.navLink}>The Studio</Link>
                             <Link href='/aftercare' onClick={handleClick} className={styles.navLink}>Aftercare</Link>
-                            {/* <Link href='/pages/events' onClick={handleClick} className={styles.navLink}>Events</Link> */}
                         </Nav>
                     </OffcanvasBody>
                 </NavbarOffcanvas>

@@ -34,22 +34,22 @@ export default function Appointments() {
         </Row>
         <Row className='my-5'>
           <Col className='col-6 col-sm-4 col-lg-2'>
-            <img className='artistImg' src='/jonHighland.png'/>
+            <img className='artistImg' src='/jonHighland.png' alt='An image of artist and shop owner Jon Highland'/>
           </Col>
           <Col className='col-6 col-sm-4 col-lg-2'>
-            <img className='artistImg' src='/kristalElaine.png'/>
+            <img className='artistImg' src='/kristalElaine.png' alt='An image of artist Kristal Elaine'/>
           </Col>
           <Col className='col-6 col-sm-4 col-lg-2'>
-            <img className='artistImg' src='/ricCardenas.png'/>
+            <img className='artistImg' src='/ricCardenas.png' alt='An image of Ric Cardenas'/>
           </Col>
           <Col className='col-6 col-sm-4 col-lg-2'>
-            <img className='artistImg' src='/jessicaOrsua.png'/>
+            <img className='artistImg' src='/jessicaOrsua.png' alt='An image of artist Jessica Orsua'/>
           </Col>
           <Col className='col-6 col-sm-4 col-lg-2'>
-            <img className='artistImg' src='/dannyJuge.png'/>
+            <img className='artistImg' src='/dannyJuge.png' alt='An image of artist Danny Juge'/>
           </Col>
           <Col className='col-6 col-sm-4 col-lg-2'>
-            <img className='artistImg' src='/ashleyHess.png'/>
+            <img className='artistImg' src='/ashleyHess.png' alt='An image of artist Ashley Hess'/>
           </Col>
         </Row>
       </Container>

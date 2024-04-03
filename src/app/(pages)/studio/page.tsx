@@ -46,16 +46,16 @@ export default function Studio() {
                     <Col className='d-flex justify-content-center my-4'>
                         <Carousel className='studioCarousel d-flex justify-content-center'>
                             <CarouselItem>
-                                <img className='carouselItem' src='/studioOne.png' />
+                                <img className='carouselItem' src='/studioOne.png' alt='An image of the left side of the front of the studio, showing some merch for sale and some of the bar countertop.' />
                             </CarouselItem>
                             <CarouselItem>
-                                <img className='carouselItem' src='/studioTwo.png' />
+                                <img className='carouselItem' src='/studioTwo.png' alt='An image taken from inside the studio, showing the door and the left side of the front of the shop, displaying some merch for sale.' />
                             </CarouselItem>
                             <CarouselItem>
-                                <img className='carouselItem' src='/studioThree.png' />
+                                <img className='carouselItem' src='/studioThree.png' alt='An image taken from inside the studio, showing the door and the front of the studio.' />
                             </CarouselItem>
                             <CarouselItem>
-                                <img className='carouselItem' src='/heroImg.png' />
+                                <img className='carouselItem' src='/heroImg.png' alt='Overhead view of the studios former appearance. It has since been redecorated.' />
                             </CarouselItem>
                         </Carousel>
                     </Col>

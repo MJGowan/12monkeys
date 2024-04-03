@@ -2,7 +2,6 @@ import React from 'react';
 import styles from './social.module.css';
 import {Container, Row, Col} from 'react-bootstrap';
 
-
 interface ISource {
     source: IItem[]
 }
