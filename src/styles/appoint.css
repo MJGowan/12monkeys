@@ -31,26 +31,47 @@
     height: 100%;
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 768px) {
+    #appointments ul{
+        margin: 0;
+    }
     .artistImg{
         padding-bottom: 20px;
+    }
+    .guidelinesCol{
+        margin-bottom: 2.5rem;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    #appointments ul{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .artistImg{
+        padding-bottom: 20px;
+    }
+    .guidelinesCol{
+        margin-bottom: 2rem;
     }
 }
 
 @media screen and (min-width: 992px) and (max-width: 1200px) {
     #appointments ul {
-        margin-left: 10%;
+       margin: 0;
     }
 }
 
 @media screen and (min-width: 1200px) and (max-width: 1400px) {
     #appointments ul {
-        margin-left: 15%;
+        margin-left: 5%;
+        margin-right: 3%;
     }
 }
 
 @media screen and (min-width: 1400px) {
     #appointments ul {
-        margin-left: 20%;
+        margin-left: 5%;
+        margin-right: 3%;
     }
 }

@@ -27,7 +27,6 @@
         width: 350px;
         height: 340px;
     }
-
 }
 
 @media screen and (max-width: 992px) {
@@ -43,8 +42,10 @@
     }
     .blurb{
         height: auto;
-        width: 100%;
+        width: 135%;
+        margin-left: -17%;
         text-align: center;
+
     }
     .contactCol{
         text-align: center;

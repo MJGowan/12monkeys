@@ -1,6 +1,6 @@
 'use client'
 
-import React, {useRef, useEffect} from 'react';
+import React, {useRef} from 'react';
 import { Container, Row, Col, FormSelect, FormControl } from 'react-bootstrap';
 import emailjs from '@emailjs/browser';
 
@@ -40,11 +40,11 @@ const sendEmail = (e: any) => {
                     <Col>
                         <label>Artist</label>
                         <FormSelect name='artist_email'>
-                            <option value=''>Jon Highland</option>
+                            <option value='12mk@sbcglobal.net'>Jon Highland</option>
                             <option value='kristalelainetattoos@gmail.com'>Kristal Elaine</option>
-                            <option value=''>Ric Cardenas</option>
-                            <option value=''>Jessica Orsua</option>
-                            <option value=''>Danny Juge</option>
+                            <option value='musicnartrc@yahoo.com'>Ric Cardenas</option>
+                            <option value='mccrackintattoos@gmail.com'>Jessica Orsua</option>
+                            <option value='djuge01@gmail.com'>Danny Juge</option>
                             <option value='fawn715@gmail.com'>Ashley Hess</option>
                         </FormSelect>
                     </Col>
