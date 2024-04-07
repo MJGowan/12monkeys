@@ -36,7 +36,7 @@ export default function Artists() {
                 <a href='https://www.instagram.com/jonhighland/'>
                   <InstagramIcon className='icon' />
                 </a>
-                <a href='tel:2098778390'>
+                <a href='sms:+12098778390'>
                   <PhoneIcon className='icon' />
                 </a>
               </div>
@@ -65,7 +65,7 @@ export default function Artists() {
                 <a href='https://www.instagram.com/kristalbet/' target='_blank'>
                   <InstagramIcon className='icon' />
                 </a>
-                <a href='tel:5103033648'>
+                <a href='sms:+15103033648'>
                   <PhoneIcon className='icon' />
                 </a>
               </div>
@@ -164,7 +164,7 @@ export default function Artists() {
                 <a href='https://www.instagram.com/sir_instadan/' target='_blank'>
                   <InstagramIcon className='icon' />
                 </a>
-                <a href='tel:2098968580'>
+                <a href='sms:+12098968580'>
                   <PhoneIcon className='icon' />
                 </a>
               </div>
