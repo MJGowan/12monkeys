@@ -1,19 +1,21 @@
 'use client'
-import React, {useEffect, useState} from 'react';
+import React, { useEffect, useState } from 'react';
 import styles from "./page.module.css";
 import { Container, Row, Col } from "react-bootstrap";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import InstaDisplay from '@/components/socials/socials';
 
 export default function Home() {
-  console.log(process.env.NEXT_PUBLIC_TOKEN_URL);
-  
-  const [srcData, setSrcData] = useState([]);
-  
+  const [srcData, setSrcData] = useState<any[]>([]);
+
   async function GetApi() {
     const api = await fetch(`${process.env.NEXT_PUBLIC_TOKEN_URL}`);
     const apiData = await api.json();
-    setSrcData(apiData.data);
+    let getSix = [];
+    for (let i = 0; i < 6; i++) {
+      getSix.push(apiData.data[i]);
+    }
+    setSrcData(getSix);
   }
 
   useEffect(() => {
@@ -47,7 +49,7 @@ export default function Home() {
               </a>
             </h3>
             <InstaDisplay
-            source={srcData}
+              source={srcData}
             />
           </Col>
         </Row>
