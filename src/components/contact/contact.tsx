@@ -6,6 +6,10 @@ import emailjs from '@emailjs/browser';
 
 export default function Contact() {
 
+    // jonstattoos.net for form example
+    // tattoo request form questions 1-7 and attach reference photos
+    // phone number, placement, full description of tattoo, attach reference photos, verify over 18?, 
+
 // fix type:any later
 const form: any = useRef();
 
