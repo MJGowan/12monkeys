@@ -13,8 +13,8 @@ export default function Footer() {
             <p>(209) 839 - 1265</p>
           </Col>
           <Col className={`col-12 col-md-6 ${styles.end} ${styles.center}`}>
-            <p className='d-none d-md-block'><a href='https://www.mjgowan.dev/'>DESIGNED AND DEVELOPED</a></p>
-            <p><a href='https://www.mjgowan.dev/'>BY MJGOWAN.DEV</a></p>
+            <p className='d-none d-md-block'><a href='https://www.mjgowan.dev/' target='_blank'>DESIGNED AND DEVELOPED</a></p>
+            <p><a href='https://www.mjgowan.dev/' target='_blank'>BY MJGOWAN.DEV</a></p>
           </Col>
         </Row>
       </Container>
