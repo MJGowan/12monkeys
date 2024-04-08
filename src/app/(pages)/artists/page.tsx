@@ -28,12 +28,12 @@ export default function Artists() {
           <Col className='col-12 col-lg-6'>
             <Col className='col-12'>
               <h3 className='header'>JON HIGHLAND</h3>
-              <h5 className='blurb'>Raised in a circus family, once a part of the High-Flying Trapeze Troupe. Went on to signing karaoke professionally before discovering his true passion of tattooing. Started working out of his one bedroom apartment and in 1999 he established 12 Monkeys Tattoos. And the rest is history... To be continued...</h5>
+              <h5 className='blurb'>My life is a circus! I love all things exciting, from nature to swallowing fire. I started 12 Monkeys Tattoos in 1999 and have been enjoying every moment of it. I don't confine myself to any one style, but I do a lot of realism with a flash.</h5>
             </Col>
-            <Col className='col-12 my-5 contactCol'>
+            <Col className='col-12 contactCol'>
               <p>Contact: Instagram / Text</p>
               <div className='alignIcons'>
-                <a href='https://www.instagram.com/jonhighland/'>
+                <a href='https://www.instagram.com/jonhighland/' target='_blank'>
                   <InstagramIcon className='icon' />
                 </a>
                 <a href='sms:+12098778390'>
@@ -57,9 +57,9 @@ export default function Artists() {
           <Col className='col-12 col-lg-6'>
             <Col className='col-12'>
               <h3 className='header'>KRISTAL ELAINE</h3>
-              <h5 className='blurb'>I started tattooing in 2006. Before that, from early childhood, I spent years with a heavy emphasis in oil painting. I enjoy merging various styles and techniques to create a unique work of art for my clients. The flow, composition, and intricate details speak to me when designing pieces.</h5>
+              <h5 className='blurb'>I have always surrounded myself with art, starting with oil painting and then pursuing tattooing as a career. The flow, composition, and intricate details speak to me when designing pieces. I enjoy merging a variety of styles and techniques to create an intricate piece for my clients.</h5>
             </Col>
-            <Col className='col-12 my-5 contactCol'>
+            <Col className='col-12 contactCol'>
               <p>Contact: Text</p>
               <div className='alignIcons'>
                 <a href='https://www.instagram.com/kristalbet/' target='_blank'>
@@ -95,9 +95,9 @@ export default function Artists() {
           <Col className='col-12 col-lg-6'>
             <Col className='col-12'>
               <h3 className='header'>RIC CARDENAS</h3>
-              <h5 className='blurb'>Raised on the outdoors, skateboarding, music and art. Now a family man who keeps things simple while having a good time doing honest tattoos.</h5>
+              <h5 className='blurb'>Spent much of my time taking in the scenery, skateboarding, listening to music, and enjoying art. Now I make it! I am a family man who likes to keep it simple and have a good time creating great tattoos.</h5>
             </Col>
-            <Col className='col-12 my-5 contactCol'>
+            <Col className='col-12 contactCol'>
               <p>Contact: Instagram</p>
               <div className='alignIcons'>
                 <a href='https://www.instagram.com/rufus209/' target='_blank'>
@@ -121,9 +121,9 @@ export default function Artists() {
           <Col className='col-12 col-lg-6'>
             <Col className='col-12'>
               <h3 className='header'>JESSICA ORSUA</h3>
-              <h5 className='blurb'>Not a fan of being boxed in, all styles are welcome. Loves variety, including Disney, floral, horror characters, and black and grey realism. But a favorite is trash polka or black trash realism.</h5>
+              <h5 className='blurb'>Huge fan of variety and all things different. I love Disney, floral, horror, and black and grey realism works. However, I'm a huge sucker for trash polka and black trash realism.</h5>
             </Col>
-            <Col className='col-12 my-5 contactCol'>
+            <Col className='col-12 contactCol'>
               <p>Contact: Instagram</p>
               <div className='alignIcons'>
                 <a href='https://www.instagram.com/jessimccrackin/' target='_blank'>
@@ -156,9 +156,9 @@ export default function Artists() {
           <Col className='col-12 col-lg-6'>
             <Col className='col-12'>
               <h3 className='header'>DANNY JUGE</h3>
-              <h5 className='blurb'>Got into tattooing with help from friends in the punk rock scene. Continue to study art and I'm into detailed tattoo, mixing styles with a realism base. When not tattooing you can catch me being a cat dad, hiking, biking, painting, and still going to shows, but not the pit anymore, lol.</h5>
+              <h5 className='blurb'>Got into tattooing with help from friends in the punk rock scene. I continue to study art and I'm into detailed tattoos, mixing styles with a realism base. When I'm not tattooing you can catch me being a cat dad, hiking, biking, painting, and still going to shows, but not the pit anymore, lol.</h5>
             </Col>
-            <Col className='col-12 my-5 contactCol'>
+            <Col className='col-12 contactCol'>
               <p>Contact: Text</p>
               <div className='alignIcons'>
                 <a href='https://www.instagram.com/sir_instadan/' target='_blank'>
@@ -185,9 +185,9 @@ export default function Artists() {
           <Col className='col-12 col-lg-6'>
             <Col className='col-12'>
               <h3 className='header'>ASHLEY HESS</h3>
-              <h5 className='blurb'>I love to experiment with multiple mediums, including digital, watercolor, acrylic, and ink of course. Love to do florals, with some snakes here and there.</h5>
+              <h5 className='blurb'>You want it, I got it. I love to experiment with different mediums, including digital, watercolor, acrylic, and ink of course. I love florals and color.</h5>
             </Col>
-            <Col className='col-12 my-5 contactCol'>
+            <Col className='col-12 contactCol'>
               <p>Contact: Email</p>
               <div className='alignIcons'>
                 <a href='https://www.instagram.com/ashley.fawn/' target='_blank'>

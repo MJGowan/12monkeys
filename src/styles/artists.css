@@ -22,14 +22,67 @@
     justify-content: end;
 }
 
-@media screen and (max-width: 768px) {
+.contactCol{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+
+@media screen and (max-width: 576px) {
+    .firstImg{
+        justify-content: center;
+    }
+    .secondImg{
+        justify-content: center;
+    }
+    .header{
+        text-align: center;
+    }
+    .blurb{
+        height: auto;
+        width: 130%;
+        margin-left: -15%;
+        text-align: center;
+    }
+    .contactCol{
+        text-align: center;
+        margin-top: 1.5rem;
+        margin-bottom: 2rem;
+    }
     .artistImg{
         width: 350px;
         height: 340px;
     }
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (min-width: 576px) and (max-width: 768px) {
+    .firstImg{
+        justify-content: center;
+    }
+    .secondImg{
+        justify-content: center;
+    }
+    .header{
+        text-align: center;
+    }
+    .blurb{
+        height: auto;
+        width: 110%;
+        margin-left: -5%;
+        text-align: center;
+    }
+    .contactCol{
+        text-align: center;
+        margin-top: 1.5rem;
+        margin-bottom: 2rem;
+    }
+    .artistImg{
+        width: 350px;
+        height: 340px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
     .firstImg{
         justify-content: center;
     }
@@ -42,13 +95,14 @@
     }
     .blurb{
         height: auto;
-        width: 135%;
-        margin-left: -17%;
+        width: 110%;
+        margin-left: -5%;
         text-align: center;
-
     }
     .contactCol{
         text-align: center;
+        margin-top: 1.5rem;
+        margin-bottom: 2rem;
     }
 }
 
@@ -66,5 +120,10 @@
 
     .secondImg .artistImg{
         margin-right: -20px;
+    }
+
+    .contactCol{
+        margin-top: 2rem;
+        margin-bottom: 2rem;
     }
 }
