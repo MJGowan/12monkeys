@@ -42,7 +42,6 @@ export default function Contact() {
                             <option value='mccrackintattoos@gmail.com'>Jessica Orsua</option>
                             <option value='djuge01@gmail.com'>Danny Juge</option>
                             <option value='fawn715@gmail.com'>Ashley Hess</option>
-                            <option value='madelinejgowan@gmail.com'>Maddie</option>
                         </FormSelect>
                     </Col>
                 </Row>
@@ -74,6 +73,7 @@ export default function Contact() {
                         <FormSelect name='tattoo_reason' required>
                             <option value='New tattoo'>New tattoo</option>
                             <option value='Complete an existing tattoo'>Complete an existing tattoo</option>
+                            <option value='New tattoo'>Cover-up</option>
                         </FormSelect>
                     </Col>
                 </Row>
