@@ -38,7 +38,7 @@ export default function Contact() {
                         <FormSelect name='artist_email' required>
                             <option value='12mk@sbcglobal.net'>Jon Highland</option>
                             <option value='kristalelainetattoos@gmail.com'>Kristal Elaine</option>
-                            <option value='musicnartrc@yahoo.com'>Ric Cardenas</option>
+                            <option value='musicnartsrc@yahoo.com'>Ric Cardenas</option>
                             <option value='mccrackintattoos@gmail.com'>Jessica Orsua</option>
                             <option value='djuge01@gmail.com'>Danny Juge</option>
                             <option value='fawn715@gmail.com'>Ashley Hess</option>
