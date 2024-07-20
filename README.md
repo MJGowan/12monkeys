@@ -1,2 +1,2 @@
 ### Designed & Developed by Madeline Gowan - 12 Monkeys Tattoos
-Tattoo shop located in the 209
+Tattoo shop in the 209
